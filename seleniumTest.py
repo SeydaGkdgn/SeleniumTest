@@ -10,14 +10,14 @@ giris_yap = browser.find_element_by_css_selector('#nav-link-accountList > span:n
 giris_yap.click()
 
 email = browser.find_element_by_id("ap_email")
-email.send_keys("seydagokdogan96@gmail.com")
+email.send_keys("xxx@gmail.com")
 
 time.sleep(3)
 loginGo = browser.find_element_by_id("continue")
 loginGo.click()
 
 password = browser.find_element_by_id("ap_password")
-password.send_keys("295069ktu")
+password.send_keys("password")
 
 signIn = browser.find_element_by_id("signInSubmit")
 signIn.click()
